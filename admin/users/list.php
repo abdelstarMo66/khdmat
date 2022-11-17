@@ -24,7 +24,7 @@ if (isset($_GET['delete'])) {
     <div class="card-header">
       <?= $data['name'] ?>
       <a class="btn btn-danger" style="margin-left: 100px;"
-        href="/khdmat/admin/users/list.php?delete=<?php echo $data['id'] ?>">حذف
+        href="/khdmat/admin/users/list.php?delete=<?php echo $data['id'] ?>">Delete
       </a>
     </div>
     <div class="card-body text-primary">

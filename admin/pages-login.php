@@ -80,4 +80,3 @@ if (isset($_POST['login'])) {
 
   </div>
 </main><!-- End #main -->
-<?php

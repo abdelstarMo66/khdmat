@@ -5,7 +5,7 @@ include '../shared/aside.php';
 include '../sharedFunc/db.php';
 include '../sharedFunc/func.php';
 
-$select = "SELECT * FROM `order_info_with_rate`";
+$select = "SELECT * FROM `order_info`";
 $s = mysqli_query($conn, $select);
 
 ?>
@@ -42,10 +42,6 @@ $s = mysqli_query($conn, $select);
         <tr>
           <th scope="row" class="table table-bordered table-dark" style="width:30%">Work at</th>
           <td class="table table-bordered table-info"><?= $data["emp_filed"] ?></td>
-        </tr>
-        <tr>
-          <th scope="row" class="table table-bordered table-dark" style="width:30%">Rating</th>
-          <td class="table table-bordered table-info"><?= $data["rate"] ?></td>
         </tr>
       
     </table>

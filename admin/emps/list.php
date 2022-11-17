@@ -35,7 +35,7 @@ $s = mysqli_query($conn, $select);
                   <th> <?php echo $data['phone'] ?> </th>
                   <th> <?php echo $data['address'] ?> </th>
                   <th> <?php echo $data['filed'] ?> </th>
-                  <th> <a class="btn btn-warning" href="/khdmat/admin/emps/add.php?edit=<?php echo $data['id'] ?>">تعديل </a> </th>
+                  <th> <a class="btn btn-warning" href="/khdmat/admin/emps/add.php?edit=<?php echo $data['id'] ?>">Edit </a> </th>
                 </tr>
               <?php } ?>
             </table>

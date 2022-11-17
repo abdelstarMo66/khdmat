@@ -46,6 +46,8 @@ if ($_SESSION['user']) {
                             <br>
                             <input type="radio" name="way"> Visa
                             <br>
+                            <input type="radio" name="way"> Master Card
+                            <br>
                             <input type="radio" name="way"> Vodavone Cash
                             <br>
                             <button onclick="return confirm('are you sure !')" name="pay" class="btn mt-3 btn-info btn-block w-50 mx-auto"> Pay Now </button>
